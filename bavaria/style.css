@@ -1,0 +1,102 @@
+body,
+header,
+footer,
+main {
+    width: 414px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.header {
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.lead {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+.autor {
+    font-family: 'Roboto';
+    text-align: center;
+    margin-top: 70px;
+}
+
+#phone,
+#pass {
+    width: 285px;
+    height: 50px;
+    top: 455px;
+    left: 65px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    text-align: center;
+}
+
+#pass {
+    margin-top: 20px;
+}
+
+#enter {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 255px;
+    height: 65px;
+    top: 627px;
+    left: 80px;
+    gap: 0px;
+    border-radius: 30px;
+    opacity: 0px;
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#enter:hover {
+    background-color: #45a049;
+}
+
+footer {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#recover {
+    color:green;
+}
